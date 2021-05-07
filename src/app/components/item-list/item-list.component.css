@@ -1,0 +1,16 @@
+app-item-detail {
+  background-color: goldenrod;
+  float: left;
+  width: 15vw;
+}
+.item-list {
+  display: flex;
+  flex-wrap: wrap;
+  float: left;
+  width: 70vw;
+}
+app-cart {
+  float: right;
+  visibility: hidden;
+  overflow: scroll;
+}

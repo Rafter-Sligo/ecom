@@ -1,0 +1,15 @@
+<p>Products List</p>
+<div class="item-list">
+  
+       
+            <app-item *ngFor="let item of itemList; let i = index;" [listToItem]="item" 
+            (click)="onClickItem(item)" 
+            ></app-item>
+            <hr>
+        
+    
+</div>
+<div class="topFix">
+    <app-item-detail></app-item-detail>
+    <app-cart></app-cart> 
+</div>

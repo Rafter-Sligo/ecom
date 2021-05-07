@@ -1,0 +1,9 @@
+<div class="navbar">
+    <ul class="link-list">
+        <li><a routerLink="/" routerLinkActive="router-link-active" > Products </a></li>
+        <li><a routerLink="/categories"> Login </a></li>
+        <li><a routerLink="/about"> Register </a></li>
+        <li><a routerLink="/cart"> Cart [{{cartSize}}] </a></li>
+        <li ><a style="color: rgb(117, 243, 117);" *ngIf="profileName" > Welcome {{profileName}} </a></li>
+    </ul>
+</div>

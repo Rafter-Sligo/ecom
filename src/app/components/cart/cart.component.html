@@ -1,0 +1,16 @@
+<h2>Cart    </h2>
+<div class="cart">
+    <ol >
+        <li *ngFor="let item of cartList;let i=index;">
+            <a href="#">
+                name :{{item.title}}
+                price :{{item.price}}
+            </a>
+            <button (click)="removeCartItem(item)">Remove</button>
+        </li>
+    </ol>
+
+    <button (click)="onSubmit()"> Buy Items</button>
+</div>
+<div *ngIf="cartList ==null">Empty cart</div>
+

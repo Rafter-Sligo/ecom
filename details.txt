@@ -1,0 +1,6 @@
+services : 
+auth=>(EE)profileEvent(profile name change)
+//cart=>(EE)itemSelectedEvent(for detail component and cart add)
+      (EE)cartSizeChangeEvent (for change in size --/ ++)
+product=>(EE) getDetailEvent(for detail item)
+

@@ -1,0 +1,17 @@
+
+<div *ngIf="itemToDetail != null ; else noDetail" class="item-detail">
+    <h2>Details</h2>
+    <img src="{{itemToDetail.image}}" alt="priduct">
+    <h2><u>name</u>   : {{itemToDetail.title}}</h2>
+    <h3> <u>price</u>  : {{itemToDetail.price}}</h3>
+    <h3> <u>description :</u> </h3> <p> {{itemToDetail.description}}</p>
+
+    <div class="edit">
+            
+       
+        
+    </div>
+</div>
+<ng-template #noDetail >
+    Not Item selected
+</ng-template>

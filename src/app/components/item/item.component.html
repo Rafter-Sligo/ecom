@@ -1,0 +1,10 @@
+
+
+<div class="item"     
+      [ngClass]="{selectedToggle: item.count >0 }">
+      <img src="{{item.image}}"  alt="{{item.title}}">
+      <h3 style="padding-left: 5px;">name  : {{item.title}}</h3>
+      <h4 style="padding-left: 5px;font-weight: bold;">price  : {{item.price}}</h4>
+      <!-- <h3>description  : {{item.description}}</h3> -->
+      <button (click)="onClickItemBuy(item)" id="buy">{{(item.count==0)?"Add":"Remove" }}</button>
+</div>

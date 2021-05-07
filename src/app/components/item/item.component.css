@@ -1,0 +1,32 @@
+.item {
+  width: 320px;
+  border: 1px solid black;
+  position: relative;
+  height: 230px;
+  overflow-y: hidden;
+  border-radius: 10px;
+  margin: 8px;
+}
+.selectedToggle {
+  background-color: rgb(250, 239, 225);
+  border: 2px solid black;
+}
+/* .item:hover {
+  background-color: rgb(148, 148, 148);
+} */
+
+.item > img {
+  max-width: 220px;
+  max-height: 120px;
+  padding-left: 20px;
+}
+#buy {
+  position: absolute;
+  top: 60px;
+  right: 60px;
+  font-size: 30px;
+  background-color: black;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}

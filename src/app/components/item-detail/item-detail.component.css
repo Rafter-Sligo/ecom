@@ -1,0 +1,14 @@
+.item-detail {
+  width: 25vw;
+  position: fixed;
+  top: 100px;
+  float: right;
+
+  word-wrap: break-word;
+  height: 50vh;
+}
+img {
+  float: right;
+  max-height: 300px;
+  max-width: 400px;
+}
